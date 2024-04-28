@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework</title>
+    <link rel = "stylesheet" href = "css/base.css">
+    <link rel = "stylesheet" href = "css/index.css">
+</head>
+<body>
+    <!-- 头部 -->
+    <div class = "header" >
+        <div class = "wrapper">
+            <!--导航-->
+            <div class = "nav">
+                <ul>
+                    <li><a href = "#"  >首页</a></li>
+                    <li><a href = "#"  >个人信息</a></li>
+                </ul>
+            </div>
+            <!--搜索-->
+            <div class = "search">
+                <input type = "text" placeholder = "请输入关键字">
+                <a href = "#"></a>
+            </div>
+            <!--用户-->
+            <div class = "user">
+                <a href = "#">
+                    <span>202212303073廖燕燕</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- 首页 -->
+    <div class = "homepage" >
+        <div class = "banner">
+            <div class = "left">
+                <ul>
+                    <li><a href="#"  >第一章</a></li>
+                    <li><a href="#">第二章</a></li>
+                    <li><a href="#">第三章</a></li>
+                    <li><a href="#" >第四章</a></li>
+                    <li><a href="#" class = "A">第五章</a></li>
+                    <li><a href="#">第六章</a></li>
+                    <li><a href="#">第七章</a></li>
+                    <li><a href="#">第八章</a></li>
+                    <li><a href="#">第九章</a></li>
+                    <li><a href="#">第十章</a></li>
+                  </ul>
+            </div>
+            <div class = "welcome">
+                <p>
+                    <h1>2.EL表达式的功能和特点是什么？</h1>
+                    （1）EL语法简单，方便 <br>
+                    （2）EL可以与JSTL结合使用，也可以和JavaScript语句结合使用。 <br>
+                    （3）EL可以自动转换类型。 <br>
+                    （4）EL既可以访问一般的变量，也可以访问JavaBean中的属性和嵌套属性、集合对象<br>
+                    <h1>3.EL中，“.”操作符和“[]”操作符使用时有何区别？</h1>
+                    通过 EL 提供的“[ ]”和“.”运算符可以访问数据。<br>
+                    ①“.”运算符：EL 表达式可使用点操作符来访问对象的属性。例如 ${object.propertyname} 。<br>
+                    ②“[ ]”运算符：与点操作符类似，也用于访问对象的属性，属性名须用双引号括起来。<br>
+                    ③“[ ]”运算符可以访问 Map 对象的 key 关键字的值，例如${map[ "key"]}。<br>
+                    <h1>5.JSTL由哪些标签库组成？各自的作用是什么？</h1>
+根据JSTL标签所提供的功能，可以将其分为5个类别。<br>
+  核心标签<br>
+  格式化标签<br>
+  SQL标签<br>
+  XML标签<br>
+  JSTL函数<br>
+JSTL 核心标签库包含 Web 应用中最常使用的标签，是 JSTL 中比较重要的标签库。核心标签库的标签按功能可分为4类：表达式标签、条件标签、迭代标签、URL相关标签。<br>
+
+<img src = "s6.png">
+<h1>6.在Web应用中如何引入JSTL？</h1>
+根据JSTL标签所提供的功能，可以将其分为5个类别。<br>
+  (1)先导入JSTL的jar包<br>
+taglibs-standard-impl-1.2.1.jar<br>
+taglibs-standard-spec-1.2.1.jar<br>
+(2)使用taglib指令引入标签库<br>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %><br>
+
+                </p>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
